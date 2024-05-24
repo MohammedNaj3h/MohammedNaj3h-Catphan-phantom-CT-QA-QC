@@ -1,0 +1,21 @@
+{
+    "info": {
+        "dbversion": "20200130",
+        "magic": "wad-qc-factory"
+    },
+    "module": {
+        "description": "CT Catphan",
+        "executable": "Catphan_wadwrapper.py",
+        "name": "CT_CatphanQC",
+        "code": "python",
+        "dependencies": [
+            "pillow",
+            "numpy",
+            "pydicom",
+            "scipy",
+            "matplotlib",
+            "skimage",
+            "pylinac"
+        ]
+    }
+}
